@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- 虚拟环境 ---
+venv/
+ENV/
+
+# --- 敏感信息 (务必忽略) ---
+.env
+.env.local
+*.sqlite3
+*.db
+
+# --- 本地数据库/模型数据 ---
+# 如果 chroma_data 包含大量本地生成的向量数据，建议忽略
+chroma_data/
+# 如果有下载的大模型文件放在本地，也需忽略
+# models/
+# *.bin
+# *.pt
+
+# --- Node/Vue ---
+node_modules/
+dist/
+dist-ssr
+*.local
+.vite
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
